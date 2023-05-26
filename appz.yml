@@ -33,10 +33,10 @@ properties:
     GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET: 
       vault: GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET
     GF_AUTH_GENERIC_OAUTH_SCOPES: openid profile email  
-    GF_AUTH_GENERIC_OAUTH_AUTH_URL: https://appz.038c839d.lowtouch.cloud/openid/authorize 
-    GF_AUTH_GENERIC_OAUTH_TOKEN_URL: https://appz.038c839d.lowtouch.cloud/openid/token 
-    GF_AUTH_GENERIC_OAUTH_API_URL: https://appz.038c839d.lowtouch.cloud/openid/userinfo 
+    GF_AUTH_GENERIC_OAUTH_AUTH_URL: https://appz.legion.0d3be5f7.lowtouch.cloud/openid/authorize 
+    GF_AUTH_GENERIC_OAUTH_TOKEN_URL: https://appz.legion.0d3be5f7.lowtouch.cloud/openid/token 
+    GF_AUTH_GENERIC_OAUTH_API_URL: https://appz.legion.0d3be5f7.lowtouch.cloud/openid/userinfo 
     GF_AUTH_GENERIC_OAUTH_NAME_ATTRIBUTE_PATH: anyname
     GF_AUTH_GENERIC_OAUTH_ROLE_ATTRIBUTE_PATH: contains(roles[*], 'admin') && 'Admin' || 'Viewer'
-    GF_SERVER_ROOT_URL: https://justathul-dev-grafana-7-0.038c839d.lowtouch.cloud
+    GF_SERVER_ROOT_URL: https://justathul-dev-prometheus-2-17.legion.0d3be5f7.lowtouch.cloud/
     revision: 53
